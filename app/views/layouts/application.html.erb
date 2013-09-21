@@ -13,7 +13,7 @@
     		<div class="container">
 
       <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="#">TREEBOOK</a>
+      <a class="brand" href="/">TREEBOOK</a>
 
       <ul class="nav">
       	<li><%= link_to "All Statuses", statuses_path %></li>
@@ -27,8 +27,10 @@
   </div>
 </div>
 
-
 	<div class="container">
+
+		<p class="notice"><%= notice %></p>
+    	<p class="alert"><%= alert %></p>
 
 		<%= yield %>
 	
