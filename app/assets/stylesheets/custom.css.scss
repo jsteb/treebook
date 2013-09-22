@@ -1,6 +1,5 @@
-@import "bootstrap";
 
-// Bootstrap body padding for fixed navbar
-body { padding-top: 60px; }
+ @import "bootstrap";
 
-.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {box-shadow: none}
+ body {margin-top: 50px}
+ .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {box-shadow: none}
