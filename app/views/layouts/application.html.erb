@@ -29,12 +29,24 @@
   	</div><!-- /container -->
 
   </div><!-- /navbar-inner -->
-</div><!-- /container -->
+</div><!-- /navbar -->
 
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
+<div class="container">
+	<% flash.each do |type, message| %>
+		<div class="alert <%= flash_class type %>">
+			<a href="#" class="close" data-dismiss="alert">&times;</a>
+			<%= message %>
+		</div>
+	<% end %>
+</div>
 
 <%= yield %>
+
+<div class="container">
+
+<footer>Copyright 2013. Understudy Collective</footer>
+
+</div><!-- /container -->
 
 </div><!-- /container -->
 
