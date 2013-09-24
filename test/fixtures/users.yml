@@ -4,9 +4,14 @@ jason:
   email: "jstebbing@hbpthree.com"
   profile_name: "jsteb"
 
-
 jim:
   first_name: "Jim"
   last_name: "Hoskins"
   email: "jim@hbpthree.com"
   profile_name: "jimbo"
+
+mike:
+  first_name: "Mike"
+  last_name: "The Frog"
+  email: "mike@hbpthree.com"
+  profile_name: "mikethefrog"
