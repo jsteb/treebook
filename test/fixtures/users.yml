@@ -3,3 +3,10 @@ jason:
   last_name: "Stebbing"
   email: "jstebbing@hbpthree.com"
   profile_name: "jsteb"
+
+
+jim:
+  first_name: "Jim"
+  last_name: "Hoskins"
+  email: "jim@hbpthree.com"
+  profile_name: "jimbo"
