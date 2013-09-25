@@ -53,6 +53,10 @@ test "that creating friendships on a user works" do
   assert users(:jason).friends.include?(users(:mike))
 end
 
+test "that calling to_param on a user returns the profile name" do
+  assert_equal "jsteb", users(:jason).to_param
+end
+
   test "a user can have a correctly formatted profile name" do
     user = User.new(first_name: 'Jason', last_name: 'Stebbing', email: 'jstebbing2@hbpthree.com')
     user.password = user.password_confirmation = 'asldkfaslkd'
